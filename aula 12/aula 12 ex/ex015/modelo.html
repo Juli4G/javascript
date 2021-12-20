@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>verificador de idade da julinha</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1> Vamos analisar... </h1>
+    </header> 
+    <section>
+        <div>
+            <p><b>Ano de nascimento:</b>
+                <input type="number" name="txtano" id="txtano" min="1900">
+            </p>    
+            <p><b>Sexo:</b>
+                <input type="radio" name="radsex" id="mas" checked>
+                <label for="mas"> Masculino </label>
+                <input type="radio" name="radsex" id="fem">
+                <label for="fem"> Feminino </label>
+            </p>
+                <input type="button" value="verificar" onclick="verificar()">
+        </div>
+        <div id="res">
+            Preencha os dados para obter o resultado    
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Julia G.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
